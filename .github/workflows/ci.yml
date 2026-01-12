@@ -1,5 +1,4 @@
-YAML
-name: Comprovació de Codi (CI)
+name: Comprovació 
 
 # QUAN s'ha d'executar?
 on:
@@ -36,3 +35,4 @@ jobs:
     # Pas 5: Executar el Linter de HTML
     - name: Revisar HTML (HTMLHint)
       run: npx htmlhint "**/*.html"
+      
